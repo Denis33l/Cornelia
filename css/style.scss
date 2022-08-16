@@ -19,8 +19,9 @@
 // HEADER
 .header {
     padding: 17px 0;
+
     &__logo {
-        font-family: 'Motter';
+        font-family: $mainFont;
         font-weight: 400;
         font-size: 26px;
 
@@ -51,9 +52,9 @@
         }
 
         &__item {
-            font-family: 'Nunito Sans';
+            font-family: $secondFont;
             font-weight: 600;
-            font-size: 16px; 
+            font-size: 16px;
         }
 
         &__link {
@@ -62,3 +63,38 @@
     }
 }
 
+.hero {
+    background-image: url('../img/hero/backgroung-hero.png');
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 120px 0 290px 0;
+
+    &__title {
+        color: $secondColor;
+        font-family: $mainFont;
+        font-size: 120px;
+
+        text-align: center;
+        max-width: 747px;
+        margin: 0 auto;
+
+        position: relative;
+
+        span {
+            background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: absolute;
+            z-index: 3;
+            top: 100%;
+            left: 23%;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        bottom: -23%;
+        z-index: 2;
+    }
+}

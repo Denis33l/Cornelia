@@ -1,6 +1,9 @@
 $mainColor: #0B4141;
 $secondColor: #FFCCBC;
 
+$mainFont: 'Motter';
+$secondFont: 'Nunito Sans';
+
 @mixin breakpoint($point) {
   @if $point==flg {
     @media (max-width: 1141px) {
