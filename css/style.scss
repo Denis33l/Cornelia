@@ -20,12 +20,18 @@
 .header {
     padding: 17px 0;
 
+    &__logo-link {
+        color: $mainColor;
+    }
+
     &__logo {
         font-family: $mainFont;
         font-weight: 400;
         font-size: 26px;
 
         color: $mainColor;
+
+        cursor: pointer;
     }
 
     &__navigation {
@@ -38,6 +44,8 @@
         padding: 12px 43px;
         color: $secondColor;
         background-color: $mainColor;
+
+        cursor: pointer;
     }
 
     .container-header {
@@ -67,7 +75,7 @@
     background-image: url('../img/hero/backgroung-hero.png');
     background-repeat: no-repeat;
     position: relative;
-    padding: 120px 0 290px 0;
+    padding: 120px 0 452px 0;
 
     &__title {
         color: $secondColor;
@@ -94,7 +102,96 @@
 
     &__image {
         position: absolute;
-        bottom: -23%;
+        bottom: 0;
         z-index: 2;
+    }
+}
+
+.toward {
+    padding: 194px 0 164px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), #FFCCBC;
+    background-image: url('../img/toward/background-toward.png');
+
+    &__title {
+        font-family: $mainFont;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        max-width: 747px;
+        margin: 0 auto;
+
+
+        color: $white;
+
+        text-align: center;
+
+        padding-bottom: 24px;
+    }
+
+    &__text {
+        font-family: $secondFont;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 747px;
+        margin: 0 auto;
+
+        text-align: center;
+
+        color: $white;
+
+        padding-bottom: 24px;
+
+        span {
+            font-weight: 800;
+        }
+    }
+}
+
+.choose {
+
+    background-color: #0B4141;
+    background-image: url('../img/choose/unicorn-choose.png');
+    background-repeat: no-repeat;
+    padding: 118px 0 85px;
+    background-position: 100% 7px;
+
+
+    &__body {}
+
+    &__title {
+        font-family: $secondFont;
+        font-weight: 900;
+        font-size: 68px;
+        max-width: 479px;
+
+        color: $secondColor;
+    }
+
+    &__text {
+        font-family: $secondFont;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        padding: 32px 0 48px;
+        max-width: 475px;
+
+        color: $secondColor;
+    }
+
+    &__link {
+        border: 2px solid $secondColor;
+        border-radius: 100px;
+        color: $secondColor;
+        padding: 14px 31px;
+    }
+
+    &__image {}
+}
+
+.container {
+
+    &__choose {
+        display: flex;
     }
 }

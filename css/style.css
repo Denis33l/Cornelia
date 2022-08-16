@@ -79,11 +79,15 @@ img {
 .header {
   padding: 17px 0;
 }
+.header__logo-link {
+  color: #0B4141;
+}
 .header__logo {
   font-family: "Motter";
   font-weight: 400;
   font-size: 26px;
   color: #0B4141;
+  cursor: pointer;
 }
 .header__navigation {
   display: flex;
@@ -94,6 +98,7 @@ img {
   padding: 12px 43px;
   color: #FFCCBC;
   background-color: #0B4141;
+  cursor: pointer;
 }
 .header .container-header {
   display: flex;
@@ -116,7 +121,7 @@ img {
   background-image: url("../img/hero/backgroung-hero.png");
   background-repeat: no-repeat;
   position: relative;
-  padding: 120px 0 290px 0;
+  padding: 120px 0 452px 0;
 }
 .hero__title {
   color: #FFCCBC;
@@ -139,6 +144,70 @@ img {
 }
 .hero__image {
   position: absolute;
-  bottom: -23%;
+  bottom: 0;
   z-index: 2;
+}
+
+.toward {
+  padding: 194px 0 164px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), #FFCCBC;
+  background-image: url("../img/toward/background-toward.png");
+}
+.toward__title {
+  font-family: "Motter";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  max-width: 747px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 24px;
+}
+.toward__text {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 747px;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+.toward__text span {
+  font-weight: 800;
+}
+
+.choose {
+  background-color: #0B4141;
+  background-image: url("../img/choose/unicorn-choose.png");
+  background-repeat: no-repeat;
+  padding: 118px 0 85px;
+  background-position: 100% 7px;
+}
+.choose__title {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 68px;
+  max-width: 479px;
+  color: #FFCCBC;
+}
+.choose__text {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 32px 0 48px;
+  max-width: 475px;
+  color: #FFCCBC;
+}
+.choose__link {
+  border: 2px solid #FFCCBC;
+  border-radius: 100px;
+  color: #FFCCBC;
+  padding: 14px 31px;
+}
+.container__choose {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
