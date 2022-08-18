@@ -208,6 +208,75 @@ img {
   color: #FFCCBC;
   padding: 14px 31px;
 }
-.container__choose {
+.choose .container__choose {
   display: flex;
+}
+
+.always {
+  padding-top: 192px;
+  padding-bottom: 106px;
+}
+.always__body {
+  display: flex;
+  gap: 192px;
+  padding-top: 48px;
+}
+.always__title {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 68px;
+  padding-bottom: 32px;
+}
+.always__title-text {
+  max-width: 464px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B4141;
+}
+.always__mouse {
+  padding-top: 48px;
+  display: flex;
+  gap: 16px;
+}
+.always .always-color {
+  color: #FFCCBC;
+}
+.always .premium-color {
+  color: #0B4141;
+}
+
+.let {
+  padding-top: 117px;
+  background: rgba(245, 245, 245, 0.6);
+}
+.let__title {
+  font-family: "Motter";
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  color: #FFCCBC;
+}
+.let__text {
+  max-width: 890px;
+  margin: 0 auto;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #0B4141;
+  padding-top: 24px;
+  padding-bottom: 39px;
+}
+.let__text span {
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #0B4141;
+}
+.let__image {
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

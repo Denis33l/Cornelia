@@ -156,9 +156,6 @@
     padding: 118px 0 85px;
     background-position: 100% 7px;
 
-
-    &__body {}
-
     &__title {
         font-family: $secondFont;
         font-weight: 900;
@@ -186,12 +183,97 @@
         padding: 14px 31px;
     }
 
-    &__image {}
+    .container {
+
+        &__choose {
+            display: flex;
+        }
+    }
 }
 
-.container {
+.always {
+    padding-top: 192px;
+    padding-bottom: 106px;
 
-    &__choose {
+    &__body {
         display: flex;
+        gap: 192px;
+        padding-top: 48px;
+    }
+
+    &__body-text {}
+
+    &__title {
+        font-family: $secondFont;
+        font-weight: 900;
+        font-size: 68px;
+        padding-bottom: 32px;
+    }
+
+    &__title-text {
+        max-width: 464px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: $mainColor;
+    }
+
+    &__mouse {
+        padding-top: 48px;
+        display: flex;
+        gap: 16px;
+    }
+
+
+    .always-color {
+        color: $secondColor;
+    }
+
+    .premium-color {
+        color: $mainColor;
+    }
+}
+
+.let {
+    padding-top: 117px;
+    background: rgba(245, 245, 245, 0.6);
+
+    &__title {
+        font-family: $mainFont;
+        font-weight: 400;
+        font-size: 80px;
+        text-align: center;
+
+        color: $secondColor;
+    }
+
+    &__text {
+        max-width: 890px;
+        margin: 0 auto;
+        font-family: $secondFont;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+
+        color: $mainColor;
+        padding-top: 24px;
+        padding-bottom: 39px;
+
+        span {
+            font-family: $secondFont;
+            font-weight: 700;
+            font-size: 24px;
+            text-align: center;
+
+            color: $mainColor;
+        }
+    }
+
+
+    &__image {
+        margin: 0 auto;
     }
 }
