@@ -283,7 +283,8 @@ img {
 }
 
 .lesser {
-  padding-bottom: 175px;
+  padding-bottom: 235px;
+  padding-top: 135px;
   background-image: url(../img/lesser/background.png);
 }
 .lesser .container-lesser {
@@ -332,6 +333,55 @@ img {
   border-radius: 100px;
   color: #0B4141;
 }
-.lesser__body-text {
-  padding-top: 135px;
+
+.exist {
+  background: linear-gradient(-51.34deg, #FFCCBC 10.28%, #FFFFFF 64.41%);
+  opacity: 0.9;
+  padding: 152px 0 93px;
+}
+.exist__logo {
+  text-align: center;
+}
+.exist__title {
+  max-width: 467px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 68px;
+  color: #0B4141;
+  padding-bottom: 32px;
+}
+.exist__text {
+  max-width: 472px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B4141;
+  padding-bottom: 48px;
+}
+.exist__text span {
+  font-weight: 800;
+}
+.exist__link {
+  padding: 12px 34px;
+  border: 2px solid #0B4141;
+  border-radius: 100px;
+  color: #0B4141;
+  font-family: "Nunito Sans";
+  font-weight: 700;
+  font-size: 18px;
+}
+.exist__image {
+  position: absolute;
+  right: -10%;
+  top: -34.5%;
+}
+.exist__body-image {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.container-exist {
+  display: flex;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
