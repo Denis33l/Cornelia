@@ -406,9 +406,51 @@
         text-align: center;
         padding-bottom: 32px;
     }
+
+    .container-exist {
+        display: flex;
+        position: relative;
+    }
 }
 
-.container-exist {
-    display: flex;
-    position: relative;
+.footer {
+
+    background-color: $mainColor;
+    padding: 236px 0 252px;
+
+    &__title {
+        font-family: $mainFont;
+        font-weight: 400;
+        font-size: 80px;
+        text-align: center;
+
+        color: $secondColor;
+        padding-bottom: 48px;
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 21px 30px;
+
+        border: 2px solid #FFCCBC;
+        border-radius: 300px;
+
+        img {
+            align-items: center;
+        }
+
+        font-family: $secondFont;
+        font-weight: 600;
+        font-size: 16px;
+
+        color: $secondColor;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: center;
+        gap: 48px;
+    }
 }

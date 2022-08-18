@@ -380,8 +380,40 @@ img {
   text-align: center;
   padding-bottom: 32px;
 }
-
-.container-exist {
+.exist .container-exist {
   display: flex;
   position: relative;
+}
+
+.footer {
+  background-color: #0B4141;
+  padding: 236px 0 252px;
+}
+.footer__title {
+  font-family: "Motter";
+  font-weight: 400;
+  font-size: 80px;
+  text-align: center;
+  color: #FFCCBC;
+  padding-bottom: 48px;
+}
+.footer__links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 21px 30px;
+  border: 2px solid #FFCCBC;
+  border-radius: 300px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFCCBC;
+}
+.footer__links img {
+  align-items: center;
+}
+.footer__body {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
 }/*# sourceMappingURL=style.css.map */
