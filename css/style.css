@@ -279,4 +279,59 @@ img {
 }
 .let__image {
   margin: 0 auto;
+  text-align: center;
+}
+
+.lesser {
+  padding-bottom: 175px;
+  background-image: url(../img/lesser/background.png);
+}
+.lesser .container-lesser {
+  position: relative;
+}
+.lesser__body {
+  display: flex;
+  gap: 166px;
+  justify-content: flex-end;
+}
+.lesser__image img {
+  position: absolute;
+}
+.lesser__image img:nth-child(1) {
+  top: 5%;
+  left: 5%;
+}
+.lesser__image img:nth-child(2) {
+  top: 58%;
+  left: 28%;
+}
+.lesser__image img:nth-child(3) {
+  top: 86%;
+  left: 2%;
+}
+.lesser__title {
+  max-width: 506px;
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 68px;
+  color: #0B4141;
+}
+.lesser__text {
+  max-width: 506px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B4141;
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+.lesser__link {
+  padding: 12px 34px;
+  border: 2px solid #0B4141;
+  border-radius: 100px;
+  color: #0B4141;
+}
+.lesser__body-text {
+  padding-top: 135px;
 }/*# sourceMappingURL=style.css.map */
