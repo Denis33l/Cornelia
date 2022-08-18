@@ -151,10 +151,12 @@
 .choose {
 
     background-color: #0B4141;
-    background-image: url('../img/choose/unicorn-choose.png');
-    background-repeat: no-repeat;
+    // background-image: url('../img/choose/unicorn-choose.png');
+    // background-repeat: no-repeat;
     padding: 118px 0 85px;
     background-position: 100% 7px;
+    position: relative;
+
 
     &__title {
         font-family: $secondFont;
@@ -181,6 +183,14 @@
         border-radius: 100px;
         color: $secondColor;
         padding: 14px 31px;
+    }
+
+    &__image {
+        position: absolute;
+
+        top: 0.75%;
+        right: 0%;
+
     }
 
     .container {
@@ -238,7 +248,7 @@
 
 .let {
     padding-top: 117px;
- 
+
     background: rgba(245, 245, 245, 0.6);
     position: relative;
 

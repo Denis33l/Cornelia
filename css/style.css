@@ -181,10 +181,9 @@ img {
 
 .choose {
   background-color: #0B4141;
-  background-image: url("../img/choose/unicorn-choose.png");
-  background-repeat: no-repeat;
   padding: 118px 0 85px;
   background-position: 100% 7px;
+  position: relative;
 }
 .choose__title {
   font-family: "Nunito Sans";
@@ -207,6 +206,11 @@ img {
   border-radius: 100px;
   color: #FFCCBC;
   padding: 14px 31px;
+}
+.choose__image {
+  position: absolute;
+  top: 0.75%;
+  right: 0%;
 }
 .choose .container__choose {
   display: flex;
