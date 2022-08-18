@@ -238,7 +238,14 @@
 
 .let {
     padding-top: 117px;
+ 
     background: rgba(245, 245, 245, 0.6);
+    position: relative;
+
+    .container-let {
+        position: relative;
+        padding-bottom: 371px;
+    }
 
     &__title {
         font-family: $mainFont;
@@ -273,9 +280,82 @@
     }
 
 
-    &__image {
-        margin: 0 auto;
+    img {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.testimonials {
+    background-image: url("../img/testimonials/background.png");
+    padding: 49px 0 92px;
+
+    &__title {
+        font-family: $secondFont;
+        font-weight: 900;
+        font-size: 68px;
         text-align: center;
+
+        color: $white;
+
+        padding-bottom: 64px;
+    }
+
+    &__body {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    &__column {}
+
+    &__block {
+        padding: 20px;
+        max-width: 305px;
+
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+
+        border-radius: 8px;
+
+        margin-bottom: 24px;
+    }
+
+    &__description {
+        padding-bottom: 16px;
+
+        font-family: $secondFont;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+
+        color: $mainColor;
+    }
+
+    &__people {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
+    &__text {}
+
+    &__name {
+        font-family: $thirdFont;
+        font-weight: 700;
+        font-size: 16px;
+
+        color: $mainColor;
+    }
+
+    &__profession {
+        font-family: $thirdFont;
+        font-weight: 400;
+        font-size: 14px;
+
+        color: $mainColor;
+
+
     }
 }
 

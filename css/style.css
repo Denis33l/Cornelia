@@ -250,6 +250,11 @@ img {
 .let {
   padding-top: 117px;
   background: rgba(245, 245, 245, 0.6);
+  position: relative;
+}
+.let .container-let {
+  position: relative;
+  padding-bottom: 371px;
 }
 .let__title {
   font-family: "Motter";
@@ -277,9 +282,61 @@ img {
   text-align: center;
   color: #0B4141;
 }
-.let__image {
-  margin: 0 auto;
+.let img {
+  position: absolute;
+  bottom: 0;
+}
+
+.testimonials {
+  background-image: url("../img/testimonials/background.png");
+  padding: 49px 0 92px;
+}
+.testimonials__title {
+  font-family: "Nunito Sans";
+  font-weight: 900;
+  font-size: 68px;
   text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 64px;
+}
+.testimonials__body {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.testimonials__block {
+  padding: 20px;
+  max-width: 305px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.testimonials__description {
+  padding-bottom: 16px;
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #0B4141;
+}
+.testimonials__people {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.testimonials__name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  color: #0B4141;
+}
+.testimonials__profession {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #0B4141;
 }
 
 .lesser {
